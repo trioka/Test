@@ -8,7 +8,7 @@ public class Main {
         Random random = new Random();
         int skolkoNas = 5;
         int rand = random.nextInt(skolkoNas) + 1;
-        System.out.println("Отвечать будет " + randomName(rand));
+        System.out.println("Отвечать будет у нас" + randomName(rand));
 
         Dog max = new Dog("Макс");
         max.woof();
